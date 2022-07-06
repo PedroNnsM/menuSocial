@@ -16,10 +16,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 600px;
     width: 400px;
-    padding: 20px;
     border-radius: 10px;
     background: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -41,6 +40,8 @@ span {
     background: #fff;
     border-radius: 50%;
     border: 3px solid #4263EB;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 span:hover {
     transform: scale(1.1);
@@ -54,8 +55,16 @@ li {
     padding: 20px 70px;
     border-radius: 10px;
     margin-top: 10px;
+    text-transform:bold;
 
 }
+h1 {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+}
+
 li:hover {
     background-color: #4263EB;
     color: #fff;
