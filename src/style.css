@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
 body {
@@ -30,7 +31,7 @@ img {
     height: 100px;
 }
 
-span {
+.border {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +44,7 @@ span {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
     margin-bottom: 20px;
 }
-span:hover {
+.border:hover {
     transform: scale(1.1);
 }
 
@@ -61,7 +62,13 @@ li {
 h1 {
     margin-bottom: 20px;
 }
+span {
+    font-weight: bold;
+    color: #4263EB;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
 p {
+    font-wght: 500;
     margin-bottom: 20px;
 }
 
